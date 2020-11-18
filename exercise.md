@@ -10,4 +10,5 @@ The sqlalchemy exercise:
 
 Hints: use `open` to open the file and json.loads to read it from json to list
 
+Also: if you mess up the db, you can just erase it and start over again, it's all in a file db.db
 
