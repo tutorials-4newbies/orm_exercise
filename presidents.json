@@ -1,16 +1,4 @@
---2020-11-18 23:50:32--  https://raw.githubusercontent.com/hitch17/sample-data/master/presidents.json
-Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.16.133
-Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.16.133|:443... connected.
-HTTP request sent, awaiting response... 206 Partial Content
-Length: 7125 (7.0K), 7023 (6.9K) remaining [text/plain]
-Saving to: ‘presidents.json’
-
-     0K
-     0K ......                                                100% 22.9M=0s
-
-2020-11-18 23:50:38 (22.9 MB/s) - ‘presidents.json’ saved [7125/7125]
-
-3-04","left_office":"1801-03-04","party":"Federalist"},
+[
   {"number":3,"president":"Thomas Jefferson","birth_year":1743,"death_year":1826,"took_office":"1801-03-04","left_office":"1809-03-04","party":"Democratic-Republican"},
   {"number":4,"president":"James Madison","birth_year":1751,"death_year":1836,"took_office":"1809-03-04","left_office":"1817-03-04","party":"Democratic-Republican"},
   {"number":5,"president":"James Monroe","birth_year":1758,"death_year":1831,"took_office":"1817-03-04","left_office":"1825-03-04","party":"Democratic-Republican"},
