@@ -24,3 +24,5 @@ def run():
 
 if __name__ == "__main__":
     run()
+
+req = "1=1 Drop table students;"
