@@ -7,7 +7,7 @@ from sqlalchemy import Column, Integer, String
 Base = declarative_base()
 engine = create_engine('sqlite:///db.db', echo=True)
 Session = sessionmaker(bind=engine)
-
+session = Session()
 
 class President(Base):
     __tablename__ = "presidents"
@@ -24,5 +24,3 @@ def run():
 
 if __name__ == "__main__":
     run()
-
-req = "1=1 Drop table students;"
