@@ -8,7 +8,7 @@ The sqlalchemy exercise:
 
 * Using sqlalchemy ORM - filter for Democratic presidents only and display a list of them 
 
-Hints: use `open` to open the file and json.loads to read it from json to list
+Hints: use `open` to open the file and `json.loads(f)` to read it from json to list
 
 Also: if you mess up the db, you can just erase it and start over again, it's all in a file db.db
 
