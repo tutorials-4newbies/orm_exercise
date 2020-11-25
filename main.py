@@ -40,8 +40,8 @@ def filter_by_party(party_name: str):
     """
     Pseudo code describing the algo:
     result = President.filter(some conditionals here).all()
-    
 
+    President.query.filter_by(fieldname='value').order_by("another_field").all()
 
     """
     pass
